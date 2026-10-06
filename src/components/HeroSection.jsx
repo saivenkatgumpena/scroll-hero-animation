@@ -126,28 +126,25 @@ export default function HeroSection() {
         0
       );
 
-      // Smoothly fade and elevate headline & stats so the car commands the scene
+      // Subtle parallax on headline and stats to keep them dynamic yet fully readable
       scrollTl.to(
         headlineRef.current,
         {
-          opacity: 0,
-          y: -40,
-          scale: 0.96,
-          duration: 0.35,
-          ease: 'power1.inOut',
+          y: -12,
+          duration: 0.5,
+          ease: 'none',
         },
-        0.05
+        0
       );
 
       scrollTl.to(
         statsContainerRef.current,
         {
-          opacity: 0,
-          y: -35,
-          duration: 0.35,
-          ease: 'power1.inOut',
+          y: -10,
+          duration: 0.5,
+          ease: 'none',
         },
-        0.08
+        0
       );
 
       // Multi-stage Car Motion following the 4 stages from the reference diagram:
@@ -156,10 +153,10 @@ export default function HeroSection() {
       scrollTl.to(
         carWrapperRef.current,
         {
-          x: '14vw',
+          x: '13vw',
           y: '2vh',
-          scale: 0.92,
-          rotationZ: -0.8,
+          scale: 0.90,
+          rotationZ: -0.6,
           duration: 0.35,
           ease: 'power1.inOut',
         },
@@ -173,8 +170,8 @@ export default function HeroSection() {
         {
           x: '8vw',
           y: '1vh',
-          scale: 1.15,
-          rotationZ: -1.4,
+          scale: 1.10,
+          rotationZ: -1.2,
           duration: 0.35,
           ease: 'power1.inOut',
         },
@@ -186,10 +183,10 @@ export default function HeroSection() {
       scrollTl.to(
         carWrapperRef.current,
         {
-          x: '2vw',
+          x: '3vw',
           y: '-1vh',
-          scale: 1.42,
-          rotationZ: -0.4,
+          scale: 1.34,
+          rotationZ: -0.2,
           duration: 0.3,
           ease: 'power2.out',
         },

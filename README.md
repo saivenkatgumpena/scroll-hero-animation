@@ -5,9 +5,9 @@ A high-performance, smooth, scroll-driven interactive hero section animation rec
 ---
 
 ## 🚀 Live Demo & Repository
-- **Live Webpage:** [https://saivenkatgumpena.github.io/Itzfizz/](https://saivenkatgumpena.github.io/Itzfizz/)
-- **GitHub Repository:** [https://github.com/saivenkatgumpena/Itzfizz](https://github.com/saivenkatgumpena/Itzfizz)
-- **Reference Inspiration:** [https://paraschaturvedi.github.io/car-scroll-animation](https://paraschaturvedi.github.io/car-scroll-animation)
+- **Live Webpage:** [https://saivenkatgumpena.github.io/scroll-hero-animation/](https://saivenkatgumpena.github.io/scroll-hero-animation/)
+- **GitHub Repository:** [https://github.com/saivenkatgumpena/scroll-hero-animation](https://github.com/saivenkatgumpena/scroll-hero-animation)
+- **Reference Demo:** [https://paraschaturvedi.github.io/car-scroll-animation](https://paraschaturvedi.github.io/car-scroll-animation)
 
 ---
 

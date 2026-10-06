@@ -42,18 +42,18 @@ export default function Footer() {
           {/* Submission Links as required */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <a
-              href="https://paraschaturvedi.github.io/car-scroll-animation"
+              href="https://saivenkatgumpena.github.io/scroll-hero-animation/"
               target="_blank"
               rel="noreferrer"
               className="group flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-sky-950/40 hover:bg-sky-900/50 border border-sky-600/30 text-sky-300 hover:text-white transition-all text-xs font-medium"
             >
               <Globe className="w-4 h-4 text-sky-400" />
-              <span>Reference Demo</span>
+              <span>Live Demo</span>
               <ArrowUpRight className="w-3.5 h-3.5 opacity-60 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
             </a>
 
             <a
-              href="https://github.com/saivenkatgumpena/Itzfizz"
+              href="https://github.com/saivenkatgumpena/scroll-hero-animation"
               target="_blank"
               rel="noreferrer"
               className="group flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-slate-200 hover:text-white transition-all text-xs font-medium"

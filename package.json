@@ -1,7 +1,8 @@
 {
-  "name": "itzfizz",
+  "name": "scroll-hero-animation",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://saivenkatgumpena.github.io/scroll-hero-animation",
   "type": "module",
   "scripts": {
     "dev": "vite",

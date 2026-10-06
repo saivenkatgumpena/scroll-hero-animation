@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    background-color: #05070c;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    overflow-x: hidden;
+    background-color: #05070c;
+    color: #f1f5f9;
+    min-height: 100vh;
+  }
+}
+
+/* Custom glow and utility classes */
+.text-glow-blue {
+  text-shadow: 0 0 20px rgba(56, 189, 248, 0.6), 0 0 40px rgba(59, 130, 246, 0.4);
+}
+
+.car-headlight-glow {
+  position: absolute;
+  pointer-events: none;
+  filter: blur(24px);
+  mix-blend-mode: screen;
+  transition: opacity 0.3s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080b11;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #38bdf8;
+}
